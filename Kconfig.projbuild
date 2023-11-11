@@ -1,3 +1,7 @@
 menu "Component drv_http Configuration"
 
+    config DRV_HTTP_USE
+        bool "Use drv_http component"
+        default y
+        
 endmenu
